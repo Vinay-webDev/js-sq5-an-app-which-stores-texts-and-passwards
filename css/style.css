@@ -3,7 +3,7 @@ body {
     font-size: 3em;
     font-weight: bold;
     background-color: hsl(339, 100%, 59%);
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,9 +15,10 @@ body {
 #enter-pass {
     width:600px;
     height: 500px;
-    background-color: cyan;
+    background-color: hsl(187, 100%, 49%);
+    border: none;
+    border-radius: 20px;
 }
-
 input {
     font-size: 0.5em;
     width: 300px;
@@ -43,8 +44,15 @@ input {
     border-radius: 10px;
     background-color: hsl(84, 100%, 69%);
 }
-
-
+/* section view2 */
+#view2 {
+    display: none;
+}
+#set-pass {
+    width:600px;
+    height: 500px;
+    background-color: hsl(187, 100%, 49%);
+}
 
 
 
