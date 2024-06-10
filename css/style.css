@@ -12,7 +12,7 @@ body {
 #view1 {
     margin: 100px;
 }
-#enter-pass {
+.enter-pass {
     width:600px;
     height: 500px;
     background-color: hsl(187, 100%, 49%);
@@ -47,6 +47,7 @@ input {
 /* section view2 */
 #view2 {
     display: none;
+    margin: 100px;
 }
 #set-pass {
     width:600px;
