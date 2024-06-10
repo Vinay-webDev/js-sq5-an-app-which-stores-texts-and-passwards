@@ -34,7 +34,7 @@ input {
     border-radius: 10px;
     background-color: hsl(84, 100%, 69%);
 }
-#sign-in{
+#sign-up{
     margin: 20px;
     font-size: 1.5em;
     font-weight: bold;
@@ -49,11 +49,11 @@ input {
     display: none;
     margin: 100px;
 }
-#set-pass {
+/*#set-pass {
     width:600px;
     height: 500px;
     background-color: hsl(187, 100%, 49%);
-}
+} */
 
 
 
