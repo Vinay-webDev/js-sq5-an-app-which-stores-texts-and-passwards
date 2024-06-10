@@ -7,9 +7,6 @@ function signIn() {
     view2.style.display = "block";
 }
 ///2. section view2 /// 2. section view2 //// 2. section view2 //////
-
-
-
 function setPass() {
     let newPass = document.getElementById("new-pass").value;
     let rePass = document.getElementById("re-pass").value;
@@ -17,6 +14,7 @@ function setPass() {
     //console.log(rePass);
     if (newPass === rePass) {
         password.push(newPass);
+        localStorage.setItem("mystore1", JSON.stringify(password))
     }
     else {
         alert("password don't match!");
