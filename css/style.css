@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    background-color: hsl(339, 100%, 59%);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#view1 {
+    margin: 100px;
+}
+#enter-pass {
+    width:600px;
+    height: 500px;
+    background-color: cyan;
+}
+
+input {
+    font-size: 0.5em;
+    width: 300px;
+    height: 40px;
+}
+#enter-btn {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(84, 100%, 69%);
+}
+
+
+
+
+
+
+
+
+
+
