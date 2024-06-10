@@ -12,9 +12,14 @@ function setPass() {
     let rePass = document.getElementById("re-pass").value;
     //console.log(newPass);
     //console.log(rePass);
-    if (newPass === rePass) {
+    if (newPass && rePass === "") {
+        alert("please enter password!");
+    }
+    else if (newPass === rePass) {
         password.push(newPass);
         localStorage.setItem("mystore1", JSON.stringify(password))
+        view2.style.display = "none";
+        view1.style.display = "block";
     }
     else {
         alert("password don't match!");
