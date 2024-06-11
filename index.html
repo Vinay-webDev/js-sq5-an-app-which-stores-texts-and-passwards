@@ -12,9 +12,9 @@
         <section id="view1">
             <div class="enter-pass">
                 <br>
-                <input class="pass-input" type="text" placeholder="password">
+                <input id="login-pass" class="pass-input" type="text" placeholder="password">
                 <br>
-                <button id="enter-btn">enter</button>
+                <button onclick="logIn()" id="enter-btn">log-in</button>
                 <br>
                 <label for="sign-in">new user👇</label>
                 <br>
@@ -31,6 +31,17 @@
                 <input class="pass-input" id="re-pass" type="text" placeholder="re-enter">
                 <br>
                 <button onclick="setPass()" id="enter-btn">set</button>
+            </div>
+        </section>
+        <section id="view3">
+            <div class="enter-pass">
+                <br>
+                <br>
+                <input type="text" id="pass-input" placeholder="enter email">
+                <br>
+                <input type="text" id="pass-input" placeholder="password for email">
+                <br>
+                <button id="enter-btn">save</button>
             </div>
         </section>
     </main>

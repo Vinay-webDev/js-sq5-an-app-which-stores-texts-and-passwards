@@ -20,9 +20,9 @@ body {
     border-radius: 20px;
 }
 input {
-    font-size: 1.3em;
-    width: 450px;
-    height: 75px;
+    font-size: 1.5em;
+    width: 550px;
+    height: 100px;
 }
 label {
     font-size: 1.2em;
@@ -57,7 +57,10 @@ label {
     height: 500px;
     background-color: hsl(187, 100%, 49%);
 } */
-
+#view3 {
+    display: none;
+    margin: 100px;
+}
 
 
 
