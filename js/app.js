@@ -2,8 +2,8 @@
 let password = [];
 const view1 = document.getElementById("view1");
 const view2 = document.getElementById("view2");
-function signIn() {
-    if(password.length === 0) {
+function signUp() {
+    if(localStorage.length === 0) {
         view1.style.display = "none";
         view2.style.display = "block";
         /* In this state when we refresh the password array is said to be empty
@@ -20,7 +20,7 @@ function setPass() {
     let rePass = document.getElementById("re-pass").value;
     //console.log(newPass);
     //console.log(rePass);
-    if (newPass === "") {
+    if (newPass === "" || rePass === "") {
         alert("please enter password!");
     }
     else if (newPass === rePass) {
