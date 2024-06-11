@@ -13,16 +13,19 @@ body {
     margin: 100px;
 }
 .enter-pass {
-    width:600px;
-    height: 500px;
+    width:800px;
+    height: 550px;
     background-color: hsl(187, 100%, 49%);
     border: none;
     border-radius: 20px;
 }
 input {
-    font-size: 0.5em;
-    width: 300px;
-    height: 40px;
+    font-size: 1.3em;
+    width: 450px;
+    height: 75px;
+}
+label {
+    font-size: 1.2em;
 }
 #enter-btn {
     margin: 25px;

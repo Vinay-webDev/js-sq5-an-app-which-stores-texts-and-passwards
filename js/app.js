@@ -2,7 +2,7 @@
 let password = [];
 const view1 = document.getElementById("view1");
 const view2 = document.getElementById("view2");
-function signUp() {
+function newUser() {
     if(localStorage.length === 0) {
         view1.style.display = "none";
         view2.style.display = "block";
